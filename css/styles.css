@@ -674,12 +674,12 @@ width: 428px;
 
 }
 
-.section3>.container {
+/* .section3>.container {
         height: 45.75em;
         @media screen and (max-width: 428px) {
                 height: auto;
         }
-}
+} */
 
 .title1 {
         Width: auto;
@@ -720,6 +720,7 @@ width: 428px;
                 flex-direction: column;
                 align-items: center;
                 width: 428px;
+                height: auto;
         }
 }
 
@@ -895,6 +896,7 @@ ul {
         height: 19.5em;
         @media screen and (max-width: 428px) {
                 height: auto;
+                width: 428px;
         }
 
 
