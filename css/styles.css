@@ -47,6 +47,10 @@ address {
         font-style: normal;
 }
 
+a{
+cursor: pointer;
+}
+
 button {
         cursor: pointer;
 }
@@ -694,11 +698,12 @@ Our advantages*/
         align-items: center;
         transition-property: background-color;
         transition-duration: 250ms;
+       
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
-        background-color: var(--Pressed-state);
+        background-color: rgb(10, 81, 162);
 }
 
 .team-soc-icon {
@@ -1146,9 +1151,9 @@ Our advantages*/
 
 .benefits-cover-box {
         position: absolute;
-        background: #4d5ae5;
+        background: rgba(77, 90, 229, 0.9);
         height: 100%;
-        transition: transform 250ms linear;
+        transition: transform 500ms linear;
 }
 
 .benefits-cover-text {
