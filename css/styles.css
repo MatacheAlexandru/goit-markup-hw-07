@@ -35,7 +35,7 @@ h3 {
         width: 75em;
         margin: 0 auto;
 
-        @media screen and (min-width: 428px) {
+        @media screen and (max-width: 428px) {
                         width: 428px;
                 }
         
@@ -53,10 +53,9 @@ h3 {
 .section94px {
         padding: 5.875em 0em;
         width: 100%;
-
-        @media screen and (min-width: 1200px) {
-                        padding: 120px 0;
-}
+@media screen and (max-width: 428px) {
+                width: 428px;
+        }
 }
 
 
@@ -71,6 +70,9 @@ h3 {
         height: 4.5em;
         background: #fff;
         border-bottom: 0.0625em solid #e7e9fc;
+        @media screen and (max-width: 428px) {
+                width: 428px;
+        }
 }
 
 .top-line>.container {
@@ -132,10 +134,11 @@ a {
         height: 3em;
         padding-left: 4.75rem;
         padding-top: 1.5rem;
+        @media screen and (max-width: 428px) {
+                display: none;
+        }
 
-        @media screen and (max-width: 767px) {
-                        display: none;
-}
+
 }
 
 .nav-studio,
@@ -300,6 +303,9 @@ a {
         box-shadow: 0 0.125em 0.0625em 0 rgba(0, 0, 0, 0.2), 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.12), 0 0.0625em 0.0625em 0 rgba(0, 0, 0, 0.14);
         background: #fcfcfc;
         z-index: 2;
+        @media screen and (max-width: 428px) {
+                width: 428px;
+        }
 }
 
 .is-hidden {
@@ -888,6 +894,7 @@ ul {
                 @media screen and (max-width: 428px) {
                 width: 428px;
                         height: 664px;
+                        width: 428px;
                 }
                 
 }
@@ -1147,7 +1154,7 @@ ul {
                 }
 }
 
-.subscribe:hover {
+.subscribe1:hover {
         background: #404BBF;
         outline: none;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
