@@ -385,6 +385,12 @@ button {
 
 /* Site hero*/
 
+.hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
 .hero-container {
         padding: 112px 0;
         margin: 0 auto;
