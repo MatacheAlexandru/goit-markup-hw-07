@@ -1,6 +1,3 @@
-
-
-
 :root {
         --Primary-Brand: #4d5ae5;
         --Pressed-state: #404bbf;
@@ -385,7 +382,7 @@ button {
 
 /* Site hero*/
 
-.hero{
+.hero {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1267,7 +1264,7 @@ Our advantages*/
         position: absolute;
         transform: translate(-50%, -50%) scaleY(1);
         width: 100%;
-        min-height: 576px;
+        min-height: 600px;
         left: 50%;
         top: 50%;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1282,14 +1279,14 @@ Our advantages*/
 }
 
 .button-close {
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: 0px solid rgba(0, 0, 0, 0.1);
         display: block;
         margin-left: auto;
         border-radius: 50%;
         padding: 0px 6px 2px 6px;
         transition: transform 250ms linear;
         margin-bottom: 24px;
-        background-color: var(--Accent);
+        background-color:transparent;
         transition-property: background-color;
         transition-duration: 3 50ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1298,10 +1295,13 @@ Our advantages*/
 .modal-button {
         fill: currentColor;
 }
+label a:visited {
+                color: blue;
+}
 
 .modal-close {
-        width: 8px;
-        height: 8px;
+        width: 24px;
+        height: 24px;
         fill: var(--Text);
         display: inline-flex;
         justify-content: center;
@@ -1315,10 +1315,7 @@ Our advantages*/
         fill: var(--B-g-color);
 }
 
-.button-close:hover,
-.button-close:focus {
-        background-color: var(--Primary-Brand);
-}
+
 
 .is-hidden {
         opacity: 0;
